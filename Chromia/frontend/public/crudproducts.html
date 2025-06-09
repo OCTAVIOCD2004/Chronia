@@ -1,0 +1,177 @@
+<html><head>
+<link crossorigin="" href="https://fonts.gstatic.com/" rel="preconnect"/>
+<link as="style" href="https://fonts.googleapis.com/css2?display=swap&amp;family=Noto+Sans%3Awght%40400%3B500%3B700%3B900&amp;family=Work+Sans%3Awght%40400%3B500%3B600%3B700%3B900" onload="this.rel='stylesheet'" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet"/>
+<meta charset="utf-8"/>
+<title>Stitch Design</title>
+<link href="data:image/x-icon;base64," rel="icon" type="image/x-icon"/>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+</head>
+<body class="bg-gray-50" style='font-family: "Work Sans", "Noto Sans", sans-serif;'>
+<div class="relative flex size-full min-h-screen flex-col group/design-root overflow-x-hidden">
+<div class="layout-container flex h-full grow flex-col">
+<header class="flex items-center justify-between whitespace-nowrap border-b border-solid border-b-gray-200 px-10 py-4 bg-white shadow-sm">
+<div class="flex items-center gap-3 text-gray-800">
+<svg class="h-8 w-8 text-blue-600" fill="none" viewBox="0 0 48 48" xmlns="http://www.w3.org/2000/svg">
+<path clip-rule="evenodd" d="M24 18.4228L42 11.475V34.3663C42 34.7796 41.7457 35.1504 41.3601 35.2992L24 42V18.4228Z" fill="currentColor" fill-rule="evenodd"></path>
+<path clip-rule="evenodd" d="M24 8.18819L33.4123 11.574L24 15.2071L14.5877 11.574L24 8.18819ZM9 15.8487L21 20.4805V37.6263L9 32.9945V15.8487ZM27 37.6263V20.4805L39 15.8487V32.9945L27 37.6263ZM25.354 2.29885C24.4788 1.98402 23.5212 1.98402 22.646 2.29885L4.98454 8.65208C3.7939 9.08038 3 10.2097 3 11.475V34.3663C3 36.0196 4.01719 37.5026 5.55962 38.098L22.9197 44.7987C23.6149 45.0671 24.3851 45.0671 25.0803 44.7987L42.4404 38.098C43.9828 37.5026 45 36.0196 45 34.3663V11.475C45 10.2097 44.2061 9.08038 43.0155 8.65208L25.354 2.29885Z" fill="currentColor" fill-rule="evenodd"></path>
+</svg>
+<h2 class="text-gray-800 text-xl font-bold">ColorCraft</h2>
+</div>
+<nav class="flex items-center gap-6">
+<a class="text-gray-600 hover:text-blue-600 text-sm font-medium" href="#">Home</a>
+<a class="text-blue-600 text-sm font-semibold" href="#">Products</a>
+<a class="text-gray-600 hover:text-blue-600 text-sm font-medium" href="#">Orders</a>
+<a class="text-gray-600 hover:text-blue-600 text-sm font-medium" href="#">Customers</a>
+</nav>
+<div class="flex items-center gap-4">
+<button class="flex items-center justify-center rounded-full h-10 w-10 bg-gray-100 hover:bg-gray-200 text-gray-600 hover:text-gray-800 transition-colors">
+<span class="material-icons text-xl">notifications</span>
+</button>
+<div class="bg-center bg-no-repeat aspect-square bg-cover rounded-full size-10 border-2 border-gray-200 hover:border-blue-500 transition-all" style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuCTtSSY8P1XMNhWvx4np4j63_a4hfGOuFD24GEoqmF-wj5cEcvcFr98bT6dw8j_9j2UUH83i3HcnL6OJk6qJfgj5q2bUQQRGmyGdfzwzEbPI9Pf3swV1-HjnuXJs6fHb3dB1YWN1qBto4C36oEclUEzmwtUMC0ZWlkGG7P3ZU7E1aR_XPZlcbWAwNMc1eGRb_lK06X6ZF7bXWoSjEJq9gmf1atKeqKZdeAAgV_eh5KFBhwnIN6gf9outbjH-IbTvE3uUKkuRi-GGg");'></div>
+</div>
+</header>
+<main class="flex-1 px-8 sm:px-16 md:px-24 lg:px-40 py-8">
+<div class="layout-content-container mx-auto flex max-w-6xl flex-col gap-8">
+<div class="flex flex-col gap-2 sm:flex-row sm:items-center sm:justify-between">
+<div>
+<h1 class="text-gray-900 text-3xl font-bold">Product Management</h1>
+<p class="text-gray-600 text-base">Manage your product catalog with ease.</p>
+</div>
+<button class="flex items-center justify-center gap-2 rounded-lg bg-blue-600 px-4 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-blue-700 transition-colors">
+<span class="material-icons text-lg">add</span>
+                Add Product
+              </button>
+</div>
+<div class="flex flex-col sm:flex-row gap-4 items-center justify-between mb-6">
+<div class="relative w-full sm:max-w-md">
+<div class="pointer-events-none absolute inset-y-0 left-0 flex items-center pl-3">
+<span class="material-icons text-gray-400">search</span>
+</div>
+<input class="form-input w-full rounded-lg border-gray-300 bg-white py-2.5 pl-10 pr-4 text-sm text-gray-800 shadow-sm focus:border-blue-500 focus:ring-1 focus:ring-blue-500 placeholder:text-gray-400" placeholder="Search products by name, category..." type="search"/>
+</div>
+<div class="flex gap-2">
+<button class="flex items-center gap-2 rounded-lg border border-gray-300 bg-white px-3 py-2 text-sm font-medium text-gray-700 shadow-sm hover:bg-gray-50 transition-colors">
+<span class="material-icons text-base">filter_list</span>
+                  Filter
+                </button>
+<button class="flex items-center gap-2 rounded-lg border border-gray-300 bg-white px-3 py-2 text-sm font-medium text-gray-700 shadow-sm hover:bg-gray-50 transition-colors">
+<span class="material-icons text-base">sort</span>
+                  Sort
+                </button>
+</div>
+</div>
+<div class="overflow-x-auto rounded-lg border border-gray-200 bg-white shadow-md">
+<table class="min-w-full divide-y divide-gray-200">
+<thead class="bg-gray-50">
+<tr>
+<th class="px-6 py-3.5 text-left text-xs font-semibold uppercase tracking-wider text-gray-500" scope="col">Product Name</th>
+<th class="px-6 py-3.5 text-left text-xs font-semibold uppercase tracking-wider text-gray-500" scope="col">Price</th>
+<th class="px-6 py-3.5 text-left text-xs font-semibold uppercase tracking-wider text-gray-500" scope="col">Category</th>
+<th class="px-6 py-3.5 text-left text-xs font-semibold uppercase tracking-wider text-gray-500" scope="col">Stock</th>
+<th class="px-6 py-3.5 text-center text-xs font-semibold uppercase tracking-wider text-gray-500" scope="col">Actions</th>
+</tr>
+</thead>
+<tbody class="divide-y divide-gray-200 bg-white">
+<tr class="hover:bg-gray-50 transition-colors">
+<td class="whitespace-nowrap px-6 py-4 text-sm font-medium text-gray-900">EcoShine Interior Paint</td>
+<td class="whitespace-nowrap px-6 py-4 text-sm text-gray-600">$29.99</td>
+<td class="whitespace-nowrap px-6 py-4 text-sm text-gray-600">Interior</td>
+<td class="whitespace-nowrap px-6 py-4 text-sm text-gray-600">150</td>
+<td class="whitespace-nowrap px-6 py-4 text-center text-sm font-medium">
+<div class="flex items-center justify-center gap-2">
+<button class="text-blue-600 hover:text-blue-800 transition-colors flex items-center gap-1">
+<span class="material-icons text-base">edit</span> Edit
+                        </button>
+<button class="text-red-600 hover:text-red-800 transition-colors flex items-center gap-1">
+<span class="material-icons text-base">delete</span> Delete
+                        </button>
+</div>
+</td>
+</tr>
+<tr class="hover:bg-gray-50 transition-colors">
+<td class="whitespace-nowrap px-6 py-4 text-sm font-medium text-gray-900">DuraGuard Exterior Paint</td>
+<td class="whitespace-nowrap px-6 py-4 text-sm text-gray-600">$39.99</td>
+<td class="whitespace-nowrap px-6 py-4 text-sm text-gray-600">Exterior</td>
+<td class="whitespace-nowrap px-6 py-4 text-sm text-gray-600">200</td>
+<td class="whitespace-nowrap px-6 py-4 text-center text-sm font-medium">
+<div class="flex items-center justify-center gap-2">
+<button class="text-blue-600 hover:text-blue-800 transition-colors flex items-center gap-1">
+<span class="material-icons text-base">edit</span> Edit
+                        </button>
+<button class="text-red-600 hover:text-red-800 transition-colors flex items-center gap-1">
+<span class="material-icons text-base">delete</span> Delete
+                        </button>
+</div>
+</td>
+</tr>
+<tr class="hover:bg-gray-50 transition-colors">
+<td class="whitespace-nowrap px-6 py-4 text-sm font-medium text-gray-900">SilkTouch Wall Primer</td>
+<td class="whitespace-nowrap px-6 py-4 text-sm text-gray-600">$19.99</td>
+<td class="whitespace-nowrap px-6 py-4 text-sm text-gray-600">Primer</td>
+<td class="whitespace-nowrap px-6 py-4 text-sm text-gray-600">100</td>
+<td class="whitespace-nowrap px-6 py-4 text-center text-sm font-medium">
+<div class="flex items-center justify-center gap-2">
+<button class="text-blue-600 hover:text-blue-800 transition-colors flex items-center gap-1">
+<span class="material-icons text-base">edit</span> Edit
+                        </button>
+<button class="text-red-600 hover:text-red-800 transition-colors flex items-center gap-1">
+<span class="material-icons text-base">delete</span> Delete
+                        </button>
+</div>
+</td>
+</tr>
+<tr class="hover:bg-gray-50 transition-colors">
+<td class="whitespace-nowrap px-6 py-4 text-sm font-medium text-gray-900">AquaSeal Bathroom Paint</td>
+<td class="whitespace-nowrap px-6 py-4 text-sm text-gray-600">$34.99</td>
+<td class="whitespace-nowrap px-6 py-4 text-sm text-gray-600">Bathroom</td>
+<td class="whitespace-nowrap px-6 py-4 text-sm text-gray-600">120</td>
+<td class="whitespace-nowrap px-6 py-4 text-center text-sm font-medium">
+<div class="flex items-center justify-center gap-2">
+<button class="text-blue-600 hover:text-blue-800 transition-colors flex items-center gap-1">
+<span class="material-icons text-base">edit</span> Edit
+                        </button>
+<button class="text-red-600 hover:text-red-800 transition-colors flex items-center gap-1">
+<span class="material-icons text-base">delete</span> Delete
+                        </button>
+</div>
+</td>
+</tr>
+<tr class="hover:bg-gray-50 transition-colors">
+<td class="whitespace-nowrap px-6 py-4 text-sm font-medium text-gray-900">ColorBlend Custom Tint</td>
+<td class="whitespace-nowrap px-6 py-4 text-sm text-gray-600">$49.99</td>
+<td class="whitespace-nowrap px-6 py-4 text-sm text-gray-600">Custom</td>
+<td class="whitespace-nowrap px-6 py-4 text-sm text-gray-600">50</td>
+<td class="whitespace-nowrap px-6 py-4 text-center text-sm font-medium">
+<div class="flex items-center justify-center gap-2">
+<button class="text-blue-600 hover:text-blue-800 transition-colors flex items-center gap-1">
+<span class="material-icons text-base">edit</span> Edit
+                        </button>
+<button class="text-red-600 hover:text-red-800 transition-colors flex items-center gap-1">
+<span class="material-icons text-base">delete</span> Delete
+                        </button>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="flex items-center justify-between pt-4">
+<p class="text-sm text-gray-600">Showing <span class="font-semibold">1</span> to <span class="font-semibold">5</span> of <span class="font-semibold">10</span> results</p>
+<nav class="flex gap-1">
+<button class="inline-flex items-center justify-center rounded-md p-2 text-sm font-medium text-gray-500 hover:bg-gray-100 hover:text-gray-700 disabled:opacity-50" disabled="">
+<span class="material-icons text-lg">chevron_left</span>
+</button>
+<button class="inline-flex h-9 w-9 items-center justify-center rounded-md bg-blue-600 text-sm font-medium text-white shadow-sm">1</button>
+<button class="inline-flex h-9 w-9 items-center justify-center rounded-md text-sm font-medium text-gray-500 hover:bg-gray-100 hover:text-gray-700">2</button>
+<button class="inline-flex items-center justify-center rounded-md p-2 text-sm font-medium text-gray-500 hover:bg-gray-100 hover:text-gray-700">
+<span class="material-icons text-lg">chevron_right</span>
+</button>
+</nav>
+</div>
+</div>
+</main>
+</div>
+</div>
+
+</body></html>

@@ -1,0 +1,78 @@
+<html><head>
+<meta charset="utf-8"/>
+<link crossorigin="" href="https://fonts.gstatic.com/" rel="preconnect"/>
+<link as="style" href="https://fonts.googleapis.com/css2?display=swap&amp;family=Noto+Sans%3Awght%40400%3B500%3B700%3B900&amp;family=Work+Sans%3Awght%40400%3B500%3B700%3B900" onload="this.rel='stylesheet'" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet"/>
+<title>Stitch Design</title>
+<link href="data:image/x-icon;base64," rel="icon" type="image/x-icon"/>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+</head>
+<body class="bg-gray-50" style='font-family: "Work Sans", "Noto Sans", sans-serif;'>
+<div class="relative flex size-full min-h-screen flex-col group/design-root overflow-x-hidden">
+<div class="layout-container flex h-full grow flex-col">
+<header class="flex items-center justify-between whitespace-nowrap border-b border-solid border-b-gray-200 px-10 py-4 shadow-sm">
+<div class="flex items-center gap-3 text-gray-900">
+<svg class="h-8 w-8 text-blue-600" fill="none" viewBox="0 0 48 48" xmlns="http://www.w3.org/2000/svg">
+<path clip-rule="evenodd" d="M24 18.4228L42 11.475V34.3663C42 34.7796 41.7457 35.1504 41.3601 35.2992L24 42V18.4228Z" fill="currentColor" fill-rule="evenodd"></path>
+<path clip-rule="evenodd" d="M24 8.18819L33.4123 11.574L24 15.2071L14.5877 11.574L24 8.18819ZM9 15.8487L21 20.4805V37.6263L9 32.9945V15.8487ZM27 37.6263V20.4805L39 15.8487V32.9945L27 37.6263ZM25.354 2.29885C24.4788 1.98402 23.5212 1.98402 22.646 2.29885L4.98454 8.65208C3.7939 9.08038 3 10.2097 3 11.475V34.3663C3 36.0196 4.01719 37.5026 5.55962 38.098L22.9197 44.7987C23.6149 45.0671 24.3851 45.0671 25.0803 44.7987L42.4404 38.098C43.9828 37.5026 45 36.0196 45 34.3663V11.475C45 10.2097 44.2061 9.08038 43.0155 8.65208L25.354 2.29885Z" fill="currentColor" fill-rule="evenodd"></path>
+</svg>
+<h1 class="text-2xl font-bold tracking-tight">ColorCraft</h1>
+</div>
+<nav class="flex items-center gap-6">
+<a class="text-gray-700 hover:text-blue-600 text-sm font-medium transition-colors" href="#">Shop</a>
+<a class="text-gray-700 hover:text-blue-600 text-sm font-medium transition-colors" href="#">Inspiration</a>
+<a class="text-gray-700 hover:text-blue-600 text-sm font-medium transition-colors" href="#">Services</a>
+<a class="text-gray-700 hover:text-blue-600 text-sm font-medium transition-colors" href="#">Help</a>
+<button class="flex items-center gap-2 min-w-[84px] cursor-pointer justify-center overflow-hidden rounded-full h-10 px-4 bg-gray-100 hover:bg-gray-200 text-gray-800 text-sm font-semibold leading-normal tracking-wide transition-colors">
+<span class="material-icons text-lg">shopping_cart</span>
+<span class="truncate">Cart</span>
+</button>
+</nav>
+</header>
+<main class="flex flex-1 items-center justify-center py-12 px-4 sm:px-6 lg:px-8">
+<div class="w-full max-w-md space-y-8 bg-white p-8 sm:p-10 rounded-xl shadow-2xl">
+<div>
+<h2 class="mt-6 text-center text-3xl font-extrabold text-gray-900">Welcome back</h2>
+<p class="mt-2 text-center text-sm text-gray-600">
+                Login to continue to ColorCraft.
+              </p>
+</div>
+<form action="#" class="mt-8 space-y-6" method="POST">
+<input name="remember" type="hidden" value="true"/>
+<div class="rounded-md shadow-sm -space-y-px">
+<div>
+<label class="sr-only" for="email-address">Email address</label>
+<input autocomplete="email" class="form-input appearance-none relative block w-full px-3 py-3 border border-gray-300 placeholder-gray-500 text-gray-900 rounded-t-md focus:outline-none focus:ring-blue-500 focus:border-blue-500 focus:z-10 sm:text-sm" id="email-address" name="email" placeholder="Enter your email" required="" type="email"/>
+</div>
+<div>
+<label class="sr-only" for="password">Password</label>
+<div class="relative">
+<input autocomplete="current-password" class="form-input appearance-none relative block w-full px-3 py-3 border border-gray-300 placeholder-gray-500 text-gray-900 rounded-b-md focus:outline-none focus:ring-blue-500 focus:border-blue-500 focus:z-10 sm:text-sm" id="password" name="password" placeholder="Enter your password" required="" type="password"/>
+</div>
+</div>
+</div>
+<div class="flex items-center justify-end">
+<div class="text-sm">
+<a class="font-medium text-blue-600 hover:text-blue-500" href="#">
+                    Forgot Password?
+                  </a>
+</div>
+</div>
+<div>
+<button class="group relative w-full flex justify-center py-3 px-4 border border-transparent text-sm font-medium rounded-md text-white bg-blue-600 hover:bg-blue-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-blue-500 transition-colors" type="submit">
+                  Login
+                </button>
+</div>
+</form>
+<p class="mt-6 text-center text-sm text-gray-600">
+              Don't have an account?
+              <a class="font-medium text-blue-600 hover:text-blue-500" href="#">
+                Sign up
+              </a>
+</p>
+</div>
+</main>
+</div>
+</div>
+
+</body></html>

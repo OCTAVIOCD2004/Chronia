@@ -1,0 +1,280 @@
+<html><head>
+<meta charset="utf-8"/>
+<link crossorigin="" href="https://fonts.gstatic.com/" rel="preconnect"/>
+<link as="style" href="https://fonts.googleapis.com/css2?display=swap&amp;family=Noto+Sans%3Awght%40400%3B500%3B700%3B900&amp;family=Work+Sans%3Awght%40400%3B500%3B700%3B900" onload="this.rel='stylesheet'" rel="stylesheet"/>
+<title>Stitch Design</title>
+<link href="data:image/x-icon;base64," rel="icon" type="image/x-icon"/>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+</head>
+<body class="bg-gray-50">
+<div class="relative flex size-full min-h-screen flex-col group/design-root overflow-x-hidden" style='font-family: "Work Sans", "Noto Sans", sans-serif;'>
+<div class="layout-container flex h-full grow flex-col">
+<header class="flex items-center justify-between whitespace-nowrap border-b border-solid border-b-gray-200 px-10 py-4 shadow-sm">
+<div class="flex items-center gap-8">
+<div class="flex items-center gap-3 text-gray-900">
+<div class="size-6 text-[#d2e2f3]">
+<svg fill="none" viewBox="0 0 48 48" xmlns="http://www.w3.org/2000/svg">
+<path clip-rule="evenodd" d="M24 18.4228L42 11.475V34.3663C42 34.7796 41.7457 35.1504 41.3601 35.2992L24 42V18.4228Z" fill="currentColor" fill-rule="evenodd"></path>
+<path clip-rule="evenodd" d="M24 8.18819L33.4123 11.574L24 15.2071L14.5877 11.574L24 8.18819ZM9 15.8487L21 20.4805V37.6263L9 32.9945V15.8487ZM27 37.6263V20.4805L39 15.8487V32.9945L27 37.6263ZM25.354 2.29885C24.4788 1.98402 23.5212 1.98402 22.646 2.29885L4.98454 8.65208C3.7939 9.08038 3 10.2097 3 11.475V34.3663C3 36.0196 4.01719 37.5026 5.55962 38.098L22.9197 44.7987C23.6149 45.0671 24.3851 45.0671 25.0803 44.7987L42.4404 38.098C43.9828 37.5026 45 36.0196 45 34.3663V11.475C45 10.2097 44.2061 9.08038 43.0155 8.65208L25.354 2.29885Z" fill="currentColor" fill-rule="evenodd"></path>
+</svg>
+</div>
+<h2 class="text-gray-900 text-xl font-bold leading-tight tracking-[-0.015em]">ColorCraft</h2>
+</div>
+<nav class="flex items-center gap-6">
+<a class="text-gray-700 hover:text-[#d2e2f3] text-sm font-medium leading-normal transition-colors" href="#">Shop</a>
+<a class="text-gray-700 hover:text-[#d2e2f3] text-sm font-medium leading-normal transition-colors" href="#">Inspiration</a>
+<a class="text-gray-700 hover:text-[#d2e2f3] text-sm font-medium leading-normal transition-colors" href="#">Services</a>
+<a class="text-gray-700 hover:text-[#d2e2f3] text-sm font-medium leading-normal transition-colors" href="#">Help</a>
+</nav>
+</div>
+<div class="flex flex-1 justify-end items-center gap-4">
+<label class="flex flex-col min-w-48 !h-10 max-w-md">
+<div class="flex w-full flex-1 items-stretch rounded-lg h-full">
+<div class="text-gray-500 flex border-none bg-gray-100 items-center justify-center pl-3 rounded-l-lg border-r-0" data-icon="MagnifyingGlass" data-size="20px" data-weight="regular">
+<svg fill="currentColor" height="20px" viewBox="0 0 256 256" width="20px" xmlns="http://www.w3.org/2000/svg">
+<path d="M229.66,218.34l-50.07-50.06a88.11,88.11,0,1,0-11.31,11.31l50.06,50.07a8,8,0,0,0,11.32-11.32ZM40,112a72,72,0,1,1,72,72A72.08,72.08,0,0,1,40,112Z"></path>
+</svg>
+</div>
+<input class="form-input flex w-full min-w-0 flex-1 resize-none overflow-hidden rounded-lg text-gray-900 focus:outline-none focus:ring-2 focus:ring-[#d2e2f3] border-none bg-gray-100 focus:border-none h-full placeholder:text-gray-500 px-3 rounded-l-none border-l-0 pl-2 text-sm font-normal leading-normal" placeholder="Search products..." value=""/>
+</div>
+</label>
+<div class="flex gap-2">
+<button class="flex min-w-[84px] max-w-[480px] cursor-pointer items-center justify-center overflow-hidden rounded-full h-10 px-4 bg-gray-100 hover:bg-gray-200 text-gray-800 text-sm font-medium leading-normal tracking-[0.015em] transition-colors">
+<span class="truncate">Cart (0)</span>
+</button>
+<button aria-label="Wishlist" class="flex max-w-[480px] cursor-pointer items-center justify-center overflow-hidden rounded-full h-10 bg-gray-100 hover:bg-gray-200 text-gray-800 gap-2 text-sm font-medium leading-normal tracking-[0.015em] min-w-0 px-2.5 transition-colors">
+<div class="text-gray-700" data-icon="Heart" data-size="20px" data-weight="regular">
+<svg fill="currentColor" height="20px" viewBox="0 0 256 256" width="20px" xmlns="http://www.w3.org/2000/svg">
+<path d="M178,32c-20.65,0-38.73,8.88-50,23.89C116.73,40.88,98.65,32,78,32A62.07,62.07,0,0,0,16,94c0,70,103.79,126.66,108.21,129a8,8,0,0,0,7.58,0C136.21,220.66,240,164,240,94A62.07,62.07,0,0,0,178,32ZM128,206.8C109.74,196.16,32,147.69,32,94A46.06,46.06,0,0,1,78,48c19.45,0,35.78,10.36,42.6,27a8,8,0,0,0,14.8,0c6.82-16.67,23.15-27,42.6-27a46.06,46.06,0,0,1,46,46C224,147.61,146.24,196.15,128,206.8Z"></path>
+</svg>
+</div>
+</button>
+<button aria-label="Account" class="flex max-w-[480px] cursor-pointer items-center justify-center overflow-hidden rounded-full h-10 bg-gray-100 hover:bg-gray-200 text-gray-800 gap-2 text-sm font-medium leading-normal tracking-[0.015em] min-w-0 px-2.5 transition-colors">
+<div class="text-gray-700" data-icon="User" data-size="20px" data-weight="regular">
+<svg fill="currentColor" height="20px" viewBox="0 0 256 256" width="20px" xmlns="http://www.w3.org/2000/svg">
+<path d="M230.92,212c-15.23-26.33-38.7-45.21-66.09-54.16a72,72,0,1,0-73.66,0C63.78,166.78,40.31,185.66,25.08,212a8,8,0,1,0,13.85,8c18.84-32.56,52.14-52,89.07-52s70.23,19.44,89.07,52a8,8,0,1,0,13.85-8ZM72,96a56,56,0,1,1,56,56A56.06,56.06,0,0,1,72,96Z"></path>
+</svg>
+</div>
+</button>
+</div>
+</div>
+</header>
+<main class="px-40 flex flex-1 justify-center py-8">
+<div class="layout-content-container flex flex-col max-w-5xl flex-1">
+<div class="flex flex-wrap gap-2 p-4 text-sm text-gray-600">
+<a class="hover:text-[#d2e2f3] hover:underline transition-colors" href="#">Home</a>
+<span>/</span>
+<a class="hover:text-[#d2e2f3] hover:underline transition-colors" href="#">Interior Paints</a>
+<span>/</span>
+<span class="text-gray-800 font-medium">Living Room</span>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-2 gap-12 p-4">
+<div>
+<div class="aspect-w-3 aspect-h-4 w-full overflow-hidden rounded-xl shadow-lg">
+<div class="w-full h-full bg-center bg-no-repeat bg-cover" style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuA04upSR9tT2npW6oReySRb5v602EfCA-pXVpJSLLyR_10LywByWLc_kaBdJ_SsHIfy2pmORY2x1prZzTNE7JllZhdP8T69Ndv4LTaRmVNTSrH7EHX_9N8MJruzTcx83TTq5u1TIzauICaCgXqq85_QIUqGH8t6Y_6Hffaq2WMjo3Pv-XfirXWxvCzH-VC9Hu_mIZR5IE5WMK_5oTFJYeWeVvmFAV2TYtSLWwUcRttoj93oKmoXpCYsa_l1BnHV8lYdrKh3q-Fn_w");'></div>
+</div>
+</div>
+<div>
+<h1 class="text-gray-900 text-4xl font-bold leading-tight tracking-tight mb-2">Serene Sky Blue</h1>
+<p class="text-gray-700 text-lg mb-6">
+                  A calming, light blue shade perfect for creating a serene atmosphere in any room. This paint is durable, easy to apply, and provides excellent coverage.
+                </p>
+<div class="mb-6">
+<h3 class="text-gray-800 text-lg font-semibold mb-2">Size</h3>
+<div class="flex flex-wrap gap-3">
+<label class="text-sm font-medium leading-normal flex items-center justify-center rounded-lg border border-gray-300 px-4 py-2 text-gray-800 has-[:checked]:border-2 has-[:checked]:border-[#d2e2f3] has-[:checked]:bg-[#d2e2f3]/10 relative cursor-pointer transition-all hover:border-[#d2e2f3]">
+                      1 Gallon
+                      <input checked="" class="invisible absolute" name="size" type="radio" value="1-gallon"/>
+</label>
+<label class="text-sm font-medium leading-normal flex items-center justify-center rounded-lg border border-gray-300 px-4 py-2 text-gray-800 has-[:checked]:border-2 has-[:checked]:border-[#d2e2f3] has-[:checked]:bg-[#d2e2f3]/10 relative cursor-pointer transition-all hover:border-[#d2e2f3]">
+                      5 Gallons
+                      <input class="invisible absolute" name="size" type="radio" value="5-gallons"/>
+</label>
+</div>
+</div>
+<div class="mb-8">
+<h3 class="text-gray-800 text-lg font-semibold mb-2">Finish</h3>
+<div class="flex flex-wrap gap-3">
+<label class="text-sm font-medium leading-normal flex items-center justify-center rounded-lg border border-gray-300 px-4 py-2 text-gray-800 has-[:checked]:border-2 has-[:checked]:border-[#d2e2f3] has-[:checked]:bg-[#d2e2f3]/10 relative cursor-pointer transition-all hover:border-[#d2e2f3]">
+                      Matte
+                      <input checked="" class="invisible absolute" name="finish" type="radio" value="matte"/>
+</label>
+<label class="text-sm font-medium leading-normal flex items-center justify-center rounded-lg border border-gray-300 px-4 py-2 text-gray-800 has-[:checked]:border-2 has-[:checked]:border-[#d2e2f3] has-[:checked]:bg-[#d2e2f3]/10 relative cursor-pointer transition-all hover:border-[#d2e2f3]">
+                      Eggshell
+                      <input class="invisible absolute" name="finish" type="radio" value="eggshell"/>
+</label>
+<label class="text-sm font-medium leading-normal flex items-center justify-center rounded-lg border border-gray-300 px-4 py-2 text-gray-800 has-[:checked]:border-2 has-[:checked]:border-[#d2e2f3] has-[:checked]:bg-[#d2e2f3]/10 relative cursor-pointer transition-all hover:border-[#d2e2f3]">
+                      Satin
+                      <input class="invisible absolute" name="finish" type="radio" value="satin"/>
+</label>
+</div>
+</div>
+<div class="flex items-center mb-6">
+<p class="text-3xl font-bold text-gray-900 mr-4">$49.99</p>
+<span class="text-green-600 font-semibold">In Stock</span>
+</div>
+<div class="flex gap-3 mb-8">
+<button class="flex-1 min-w-[84px] max-w-[480px] cursor-pointer items-center justify-center overflow-hidden rounded-full h-12 px-6 bg-[#d2e2f3] text-gray-900 text-base font-semibold leading-normal tracking-[0.015em] hover:bg-[#b0cdee] transition-colors shadow-sm">
+<span class="truncate">Add to Cart</span>
+</button>
+<button class="flex-1 min-w-[84px] max-w-[480px] cursor-pointer items-center justify-center overflow-hidden rounded-full h-12 px-6 bg-gray-800 text-white text-base font-semibold leading-normal tracking-[0.015em] hover:bg-gray-700 transition-colors shadow-sm">
+<span class="truncate">Buy Now</span>
+</button>
+</div>
+</div>
+</div>
+<div class="p-4 mt-8">
+<h3 class="text-gray-800 text-2xl font-semibold mb-4 border-b pb-2">Product Details</h3>
+<dl class="grid grid-cols-1 md:grid-cols-2 gap-x-8 gap-y-4">
+<div class="border-t border-gray-200 pt-4">
+<dt class="text-gray-600 text-sm font-medium">Coverage</dt>
+<dd class="text-gray-800 text-sm">Up to 400 sq ft per gallon</dd>
+</div>
+<div class="border-t border-gray-200 pt-4">
+<dt class="text-gray-600 text-sm font-medium">Drying Time</dt>
+<dd class="text-gray-800 text-sm">4-6 hours</dd>
+</div>
+<div class="border-t border-gray-200 pt-4">
+<dt class="text-gray-600 text-sm font-medium">VOC Level</dt>
+<dd class="text-gray-800 text-sm">Low VOC</dd>
+</div>
+<div class="border-t border-gray-200 pt-4">
+<dt class="text-gray-600 text-sm font-medium">Application</dt>
+<dd class="text-gray-800 text-sm">Brush, Roller, or Spray</dd>
+</div>
+</dl>
+</div>
+<div class="p-4 mt-8">
+<h3 class="text-gray-800 text-2xl font-semibold mb-6 border-b pb-2">Customer Reviews</h3>
+<div class="flex flex-wrap gap-x-12 gap-y-6 items-start">
+<div class="flex flex-col gap-1 items-center">
+<p class="text-gray-900 text-5xl font-bold leading-tight">4.5</p>
+<div class="flex gap-0.5 text-[#FFC107]">
+<svg fill="currentColor" height="20px" viewBox="0 0 256 256" width="20px" xmlns="http://www.w3.org/2000/svg"><path d="M234.5,114.38l-45.1,39.36,13.51,58.6a16,16,0,0,1-23.84,17.34l-51.11-31-51,31a16,16,0,0,1-23.84-17.34L66.61,153.8,21.5,114.38a16,16,0,0,1,9.11-28.06l59.46-5.15,23.21-55.36a15.95,15.95,0,0,1,29.44,0h0L166,81.17l59.44,5.15a16,16,0,0,1,9.11,28.06Z"></path></svg>
+<svg fill="currentColor" height="20px" viewBox="0 0 256 256" width="20px" xmlns="http://www.w3.org/2000/svg"><path d="M234.5,114.38l-45.1,39.36,13.51,58.6a16,16,0,0,1-23.84,17.34l-51.11-31-51,31a16,16,0,0,1-23.84-17.34L66.61,153.8,21.5,114.38a16,16,0,0,1,9.11-28.06l59.46-5.15,23.21-55.36a15.95,15.95,0,0,1,29.44,0h0L166,81.17l59.44,5.15a16,16,0,0,1,9.11,28.06Z"></path></svg>
+<svg fill="currentColor" height="20px" viewBox="0 0 256 256" width="20px" xmlns="http://www.w3.org/2000/svg"><path d="M234.5,114.38l-45.1,39.36,13.51,58.6a16,16,0,0,1-23.84,17.34l-51.11-31-51,31a16,16,0,0,1-23.84-17.34L66.61,153.8,21.5,114.38a16,16,0,0,1,9.11-28.06l59.46-5.15,23.21-55.36a15.95,15.95,0,0,1,29.44,0h0L166,81.17l59.44,5.15a16,16,0,0,1,9.11,28.06Z"></path></svg>
+<svg fill="currentColor" height="20px" viewBox="0 0 256 256" width="20px" xmlns="http://www.w3.org/2000/svg"><path d="M234.5,114.38l-45.1,39.36,13.51,58.6a16,16,0,0,1-23.84,17.34l-51.11-31-51,31a16,16,0,0,1-23.84-17.34L66.61,153.8,21.5,114.38a16,16,0,0,1,9.11-28.06l59.46-5.15,23.21-55.36a15.95,15.95,0,0,1,29.44,0h0L166,81.17l59.44,5.15a16,16,0,0,1,9.11,28.06Z"></path></svg>
+<svg fill="currentColor" height="20px" viewBox="0 0 256 256" width="20px" xmlns="http://www.w3.org/2000/svg"><path d="M128,179.61l-34.16,21.86a3.93,3.93,0,0,1-5.81-4.22l9.55-39.36-30.21-25.1a3.93,3.93,0,0,1,2.29-6.94l39.93-3.39,15.88-36.91a3.93,3.93,0,0,1,7.06,0l15.88,36.91,39.93,3.39a3.93,3.93,0,0,1,2.29,6.94l-30.21,25.1,9.55,39.36a3.93,3.93,0,0,1-5.81,4.22ZM239.2,97.29a16,16,0,0,0-13.81-11L166,81.17,142.72,25.81h0a15.95,15.95,0,0,0-29.44,0L90.07,81.17,30.61,86.32a16,16,0,0,0-9.11,28.06L66.61,153.8,53.09,212.34a16,16,0,0,0,23.84,17.34l51-31,51.11,31a16,16,0,0,0,23.84-17.34l-13.51-58.6,45.1-39.36A16,16,0,0,0,239.2,97.29Zm-15.22,5L178.88,141.65a16,16,0,0,0-5.08,15.71l13.56,58.58-51.07-31a15.9,15.9,0,0,0-16.54,0l-51,31,13.51-58.6a16,16,0,0,0-5.08-15.71L32,102.35a.37.37,0,0,1,0-.09l59.44-5.14a16,16,0,0,0,13.35-9.75L128,32.08l23.2,55.29a16,16,0,0,0,13.35,9.75L224,102.26S224,102.32,224,102.33Z"></path></svg>
+</div>
+<p class="text-gray-700 text-sm font-medium">Based on 125 reviews</p>
+</div>
+<div class="grid min-w-[250px] max-w-[400px] flex-1 grid-cols-[auto_1fr_auto] items-center gap-x-3 gap-y-1.5">
+<p class="text-gray-700 text-sm font-medium">5 star</p>
+<div class="flex h-2.5 flex-1 overflow-hidden rounded-full bg-gray-200"><div class="rounded-full bg-[#FFC107]" style="width: 70%;"></div></div>
+<p class="text-gray-600 text-sm font-medium text-right">70%</p>
+<p class="text-gray-700 text-sm font-medium">4 star</p>
+<div class="flex h-2.5 flex-1 overflow-hidden rounded-full bg-gray-200"><div class="rounded-full bg-[#FFC107]" style="width: 15%;"></div></div>
+<p class="text-gray-600 text-sm font-medium text-right">15%</p>
+<p class="text-gray-700 text-sm font-medium">3 star</p>
+<div class="flex h-2.5 flex-1 overflow-hidden rounded-full bg-gray-200"><div class="rounded-full bg-[#FFC107]" style="width: 8%;"></div></div>
+<p class="text-gray-600 text-sm font-medium text-right">8%</p>
+<p class="text-gray-700 text-sm font-medium">2 star</p>
+<div class="flex h-2.5 flex-1 overflow-hidden rounded-full bg-gray-200"><div class="rounded-full bg-[#FFC107]" style="width: 4%;"></div></div>
+<p class="text-gray-600 text-sm font-medium text-right">4%</p>
+<p class="text-gray-700 text-sm font-medium">1 star</p>
+<div class="flex h-2.5 flex-1 overflow-hidden rounded-full bg-gray-200"><div class="rounded-full bg-[#FFC107]" style="width: 3%;"></div></div>
+<p class="text-gray-600 text-sm font-medium text-right">3%</p>
+</div>
+</div>
+<div class="mt-8 space-y-8">
+<div class="flex flex-col gap-3 border-t border-gray-200 pt-6">
+<div class="flex items-center gap-3">
+<div class="bg-center bg-no-repeat aspect-square bg-cover rounded-full size-10" style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuAHdIiT4b4DQ1wBQFwa76Vv3iit4X0dnBIAyB_CwAAIoureQV-GEB5YQV2fceScsHiMQKkZj05fban5r721vElzW693r1I3Wov77rvBQtwTv05GTMfYolJQsBsp3MWqY4yR1hsgXVu6jt0qi3ysAx4awb8QbIB5_VEFjEQfCQYH6WV2YMAjbOF8aU8bkjq-LNa7KVHqriY229Oat0Hq7AB9vgRZAyQj9vTWCBWN30I2Irb1CXwkEOX_OAQ1fb6FTG8WpjOyb3KxDw");'></div>
+<div>
+<p class="text-gray-800 text-sm font-semibold">Sophia Carter</p>
+<p class="text-gray-600 text-xs">1 month ago</p>
+</div>
+</div>
+<div class="flex gap-0.5 text-[#FFC107]">
+<svg fill="currentColor" height="16px" viewBox="0 0 256 256" width="16px" xmlns="http://www.w3.org/2000/svg"><path d="M234.5,114.38l-45.1,39.36,13.51,58.6a16,16,0,0,1-23.84,17.34l-51.11-31-51,31a16,16,0,0,1-23.84-17.34L66.61,153.8,21.5,114.38a16,16,0,0,1,9.11-28.06l59.46-5.15,23.21-55.36a15.95,15.95,0,0,1,29.44,0h0L166,81.17l59.44,5.15a16,16,0,0,1,9.11,28.06Z"></path></svg>
+<svg fill="currentColor" height="16px" viewBox="0 0 256 256" width="16px" xmlns="http://www.w3.org/2000/svg"><path d="M234.5,114.38l-45.1,39.36,13.51,58.6a16,16,0,0,1-23.84,17.34l-51.11-31-51,31a16,16,0,0,1-23.84-17.34L66.61,153.8,21.5,114.38a16,16,0,0,1,9.11-28.06l59.46-5.15,23.21-55.36a15.95,15.95,0,0,1,29.44,0h0L166,81.17l59.44,5.15a16,16,0,0,1,9.11,28.06Z"></path></svg>
+<svg fill="currentColor" height="16px" viewBox="0 0 256 256" width="16px" xmlns="http://www.w3.org/2000/svg"><path d="M234.5,114.38l-45.1,39.36,13.51,58.6a16,16,0,0,1-23.84,17.34l-51.11-31-51,31a16,16,0,0,1-23.84-17.34L66.61,153.8,21.5,114.38a16,16,0,0,1,9.11-28.06l59.46-5.15,23.21-55.36a15.95,15.95,0,0,1,29.44,0h0L166,81.17l59.44,5.15a16,16,0,0,1,9.11,28.06Z"></path></svg>
+<svg fill="currentColor" height="16px" viewBox="0 0 256 256" width="16px" xmlns="http://www.w3.org/2000/svg"><path d="M234.5,114.38l-45.1,39.36,13.51,58.6a16,16,0,0,1-23.84,17.34l-51.11-31-51,31a16,16,0,0,1-23.84-17.34L66.61,153.8,21.5,114.38a16,16,0,0,1,9.11-28.06l59.46-5.15,23.21-55.36a15.95,15.95,0,0,1,29.44,0h0L166,81.17l59.44,5.15a16,16,0,0,1,9.11,28.06Z"></path></svg>
+<svg fill="currentColor" height="16px" viewBox="0 0 256 256" width="16px" xmlns="http://www.w3.org/2000/svg"><path d="M234.5,114.38l-45.1,39.36,13.51,58.6a16,16,0,0,1-23.84,17.34l-51.11-31-51,31a16,16,0,0,1-23.84-17.34L66.61,153.8,21.5,114.38a16,16,0,0,1,9.11-28.06l59.46-5.15,23.21-55.36a15.95,15.95,0,0,1,29.44,0h0L166,81.17l59.44,5.15a16,16,0,0,1,9.11,28.06Z"></path></svg>
+</div>
+<p class="text-gray-700 text-sm leading-relaxed">
+                    This paint is absolutely beautiful! It went on smoothly and the color is exactly what I wanted. My living room now feels so peaceful and inviting.
+                  </p>
+<div class="flex gap-4 text-gray-600">
+<button class="flex items-center gap-1.5 text-xs hover:text-[#d2e2f3] transition-colors">
+<svg fill="currentColor" height="16px" viewBox="0 0 256 256" width="16px" xmlns="http://www.w3.org/2000/svg"><path d="M234,80.12A24,24,0,0,0,216,72H160V56a40,40,0,0,0-40-40,8,8,0,0,0-7.16,4.42L75.06,96H32a16,16,0,0,0-16,16v88a16,16,0,0,0,16,16H204a24,24,0,0,0,23.82-21l12-96A24,24,0,0,0,234,80.12ZM32,112H72v88H32ZM223.94,97l-12,96a8,8,0,0,1-7.94,7H88V105.89l36.71-73.43A24,24,0,0,1,144,56V80a8,8,0,0,0,8,8h64a8,8,0,0,1,7.94,9Z"></path></svg>
+<span>25 Helpful</span>
+</button>
+</div>
+</div>
+<div class="flex flex-col gap-3 border-t border-gray-200 pt-6">
+<div class="flex items-center gap-3">
+<div class="bg-center bg-no-repeat aspect-square bg-cover rounded-full size-10" style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuDqV_vbp99vMpvO-BxB-OvxeTHQszr1ab0UH1YezdE899ZbkF1eqyl0SczvGcrz4Qxupa8PCulxIYR0G1ug8YKK8dO_xGJHMx0afcOWax1D8g09c3yxatwMwOfP36A0Khxn4qObzNelErq6D1pHNuPaeAxQ6USJNd9fP7TX3ESGEUVUQnAMydwzwqWxvkdlLFm2aJ-KdVIK5slXmw4UdNnqBW6Zm6Lk8aAgjdMjD2UZ-bYkTcT21G6BGpuh9dsF6n1ipidi0FJiIw");'></div>
+<div>
+<p class="text-gray-800 text-sm font-semibold">Liam Bennett</p>
+<p class="text-gray-600 text-xs">2 months ago</p>
+</div>
+</div>
+<div class="flex gap-0.5 text-[#FFC107]">
+<svg fill="currentColor" height="16px" viewBox="0 0 256 256" width="16px" xmlns="http://www.w3.org/2000/svg"><path d="M234.5,114.38l-45.1,39.36,13.51,58.6a16,16,0,0,1-23.84,17.34l-51.11-31-51,31a16,16,0,0,1-23.84-17.34L66.61,153.8,21.5,114.38a16,16,0,0,1,9.11-28.06l59.46-5.15,23.21-55.36a15.95,15.95,0,0,1,29.44,0h0L166,81.17l59.44,5.15a16,16,0,0,1,9.11,28.06Z"></path></svg>
+<svg fill="currentColor" height="16px" viewBox="0 0 256 256" width="16px" xmlns="http://www.w3.org/2000/svg"><path d="M234.5,114.38l-45.1,39.36,13.51,58.6a16,16,0,0,1-23.84,17.34l-51.11-31-51,31a16,16,0,0,1-23.84-17.34L66.61,153.8,21.5,114.38a16,16,0,0,1,9.11-28.06l59.46-5.15,23.21-55.36a15.95,15.95,0,0,1,29.44,0h0L166,81.17l59.44,5.15a16,16,0,0,1,9.11,28.06Z"></path></svg>
+<svg fill="currentColor" height="16px" viewBox="0 0 256 256" width="16px" xmlns="http://www.w3.org/2000/svg"><path d="M234.5,114.38l-45.1,39.36,13.51,58.6a16,16,0,0,1-23.84,17.34l-51.11-31-51,31a16,16,0,0,1-23.84-17.34L66.61,153.8,21.5,114.38a16,16,0,0,1,9.11-28.06l59.46-5.15,23.21-55.36a15.95,15.95,0,0,1,29.44,0h0L166,81.17l59.44,5.15a16,16,0,0,1,9.11,28.06Z"></path></svg>
+<svg fill="currentColor" height="16px" viewBox="0 0 256 256" width="16px" xmlns="http://www.w3.org/2000/svg"><path d="M234.5,114.38l-45.1,39.36,13.51,58.6a16,16,0,0,1-23.84,17.34l-51.11-31-51,31a16,16,0,0,1-23.84-17.34L66.61,153.8,21.5,114.38a16,16,0,0,1,9.11-28.06l59.46-5.15,23.21-55.36a15.95,15.95,0,0,1,29.44,0h0L166,81.17l59.44,5.15a16,16,0,0,1,9.11,28.06Z"></path></svg>
+<svg class="text-gray-300" fill="currentColor" height="16px" viewBox="0 0 256 256" width="16px" xmlns="http://www.w3.org/2000/svg"><path d="M239.2,97.29a16,16,0,0,0-13.81-11L166,81.17,142.72,25.81h0a15.95,15.95,0,0,0-29.44,0L90.07,81.17,30.61,86.32a16,16,0,0,0-9.11,28.06L66.61,153.8,53.09,212.34a16,16,0,0,0,23.84,17.34l51-31,51.11,31a16,16,0,0,0,23.84-17.34l-13.51-58.6,45.1-39.36A16,16,0,0,0,239.2,97.29Zm-15.22,5-45.1,39.36a16,16,0,0,0-5.08,15.71L187.35,216v0l-51.07-31a15.9,15.9,0,0,0-16.54,0l-51,31h0L82.2,157.4a16,16,0,0,0-5.08-15.71L32,102.35a.37.37,0,0,1,0-.09l59.44-5.14a16,16,0,0,0,13.35-9.75L128,32.08l23.2,55.29a16,16,0,0,0,13.35,9.75L224,102.26S224,102.32,224,102.33Z"></path></svg>
+</div>
+<p class="text-gray-700 text-sm leading-relaxed">
+                    Great paint, but the color was slightly lighter than expected. Still, it's a high-quality product and I'm happy with the result.
+                  </p>
+<div class="flex gap-4 text-gray-600">
+<button class="flex items-center gap-1.5 text-xs hover:text-[#d2e2f3] transition-colors">
+<svg fill="currentColor" height="16px" viewBox="0 0 256 256" width="16px" xmlns="http://www.w3.org/2000/svg"><path d="M234,80.12A24,24,0,0,0,216,72H160V56a40,40,0,0,0-40-40,8,8,0,0,0-7.16,4.42L75.06,96H32a16,16,0,0,0-16,16v88a16,16,0,0,0,16,16H204a24,24,0,0,0,23.82-21l12-96A24,24,0,0,0,234,80.12ZM32,112H72v88H32ZM223.94,97l-12,96a8,8,0,0,1-7.94,7H88V105.89l36.71-73.43A24,24,0,0,1,144,56V80a8,8,0,0,0,8,8h64a8,8,0,0,1,7.94,9Z"></path></svg>
+<span>18 Helpful</span>
+</button>
+</div>
+</div>
+</div>
+</div>
+<div class="p-4 mt-8">
+<h3 class="text-gray-800 text-2xl font-semibold mb-4 border-b pb-2">Related Products</h3>
+<div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6">
+<div class="flex flex-col gap-3 rounded-lg overflow-hidden group">
+<div class="aspect-w-3 aspect-h-4 w-full bg-gray-200 rounded-lg overflow-hidden">
+<div class="w-full h-full bg-center bg-no-repeat bg-cover group-hover:scale-105 transition-transform duration-300" style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuAXerFVkTUY2S1E0iMVMAOkiEV3iZVn5WVXlJdxhSg6wvO9QJvBdVMoStUYkh6AvDjv0nd3YIT1P1Ld4PPqMzsRHh-LDjx88Rm3OLV9YSrue-VPuXpFoMZOPoZ7H3bOBfjGnbuyI9Q3Gk8e0g2BqKy0rSpTMjDOjywmVzb6-XgBCQ-Kskm4T9K5ohmKOstOitsXbcV9pveZ3K9RevV2L3r76GrZ2xIN625OeipbaqCxTazclVHVP1B8k98zsi5JGiwdppt6IubuLg");'></div>
+</div>
+<div>
+<p class="text-gray-800 text-base font-semibold leading-normal truncate">Tranquil Teal</p>
+<p class="text-gray-600 text-sm font-normal leading-normal">A soothing teal for bedrooms</p>
+<p class="text-gray-900 text-base font-bold mt-1">$52.99</p>
+</div>
+</div>
+<div class="flex flex-col gap-3 rounded-lg overflow-hidden group">
+<div class="aspect-w-3 aspect-h-4 w-full bg-gray-200 rounded-lg overflow-hidden">
+<div class="w-full h-full bg-center bg-no-repeat bg-cover group-hover:scale-105 transition-transform duration-300" style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuCN4f7QQnCCYAZhfspz2M7WHsqqkMY_IiKnZCvgu6HUG9JV6oEi0BnQF9zoB63WnBjRnEimGserJKMrSdfwx_qLCgR45DdUQ-369rARVVJKbikPygYIX7WSBDyRVF9zj6DyOkdUkVIYfYdvvhJZOtVjgiEtgTBlK6KnpAaesfq0loyxPTpSvi6MPq3kCxFLswHYORy-p-eM9ZAENpe3ug9_Y7AKOI1okpkyr91LtVnHsGbG-y_RSFSLMk01-gQJSgPOKOSTKAvBtw");'></div>
+</div>
+<div>
+<p class="text-gray-800 text-base font-semibold leading-normal truncate">Sunny Yellow</p>
+<p class="text-gray-600 text-sm font-normal leading-normal">A cheerful yellow for kitchens</p>
+<p class="text-gray-900 text-base font-bold mt-1">$48.99</p>
+</div>
+</div>
+<div class="flex flex-col gap-3 rounded-lg overflow-hidden group">
+<div class="aspect-w-3 aspect-h-4 w-full bg-gray-200 rounded-lg overflow-hidden">
+<div class="w-full h-full bg-center bg-no-repeat bg-cover group-hover:scale-105 transition-transform duration-300" style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuC2Btu2J2fWKxZzrelqaQw_QXEJkaBSWxBLYFoijMyOtFX9bv10_eyyrW7bKNNYpAQJyKIN-vT4mAYkoV_A8v7Pz1h7ppgJFtNqpR_Ds7RSmPYcBqRCGkRXwOkpcUyI5RqZ9HaO4HzoTZcUo3PCw_s_3T66U_GMANwTItLKJfqeAMC2FR0iQJkqXGP20MqnnDBK4lI6mou2ZwNjqiQvlFLGJVIjWbydb69e6zBS6vbUMeLP0pI9Ord8GVahKhUyQF2YvcQgLKa_dg");'></div>
+</div>
+<div>
+<p class="text-gray-800 text-base font-semibold leading-normal truncate">Forest Green</p>
+<p class="text-gray-600 text-sm font-normal leading-normal">A refreshing green for studies</p>
+<p class="text-gray-900 text-base font-bold mt-1">$54.99</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</main>
+<footer class="bg-gray-100 text-gray-700 py-12 px-10 text-center border-t border-gray-200">
+<p class="text-sm">© 2024 ColorCraft. All rights reserved.</p>
+<nav class="mt-4 space-x-4">
+<a class="hover:text-[#d2e2f3] hover:underline" href="#">Privacy Policy</a>
+<a class="hover:text-[#d2e2f3] hover:underline" href="#">Terms of Service</a>
+<a class="hover:text-[#d2e2f3] hover:underline" href="#">Contact Us</a>
+</nav>
+</footer>
+</div>
+</div>
+
+</body></html>
